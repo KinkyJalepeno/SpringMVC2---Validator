@@ -8,11 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Spring MVC</title>
+    <title>Spring MVC - Validating data fields</title>
 </head>
 <body>
 
-<h2>Page called by HelloController MOFO</h2>
+    <a href="customer-form.jsp">Customer entry form</a>
+
+
 
 </body>
 </html>

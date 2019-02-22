@@ -1,14 +1,18 @@
 package com.luv2code.springdemo.mvc;
 
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HelloController {
+@RequestMapping("/customer")
+public class CustomerController {
 
-    @RequestMapping("/")
-    public String showPage(){
+    @RequestMapping("processForm")
+    public String showForm(){
 
-        return "main-menu";
+        return "customer-confirmation";
     }
+
+
 }
