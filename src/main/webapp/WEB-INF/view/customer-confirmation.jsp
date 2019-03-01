@@ -7,9 +7,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Customer Confirmation</title>
 </head>
 <body>
+<br><br>
+
+Name confirmed: ${customer.firstName} ${customer.lastName}
 
 </body>
 </html>

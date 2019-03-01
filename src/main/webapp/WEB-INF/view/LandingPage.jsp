@@ -12,8 +12,8 @@
 </head>
 <body>
 
-    <a href="customer-form.jsp">Customer entry form</a>
-
+    <a href="customer/showForm">Customer entry form</a>
+    <!--submit to the controller -->
 
 
 </body>
